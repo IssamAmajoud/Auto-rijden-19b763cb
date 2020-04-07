@@ -13,18 +13,13 @@
 </html>
 <?php
 
-
-if(isset($_POST['submit'])) {
+if (isset($_POST['submit'])) {
 	
 	$cijfer_1 = $_POST['cijfer_1'];
 
-	if ($cijfer_1 >= 16.5) 
-	{
-    	echo "Je mag beginnen met rijlessen!";
-	}
+	if ($cijfer_1 >= 16.5) {
+    	echo "Je mag beginnen met rijlessen!"; }
 	else {
-    	echo "Helaas, je mag nog niet beginnen met rijlessen";
-	}
-}
+    	echo "Helaas, je mag nog niet beginnen met rijlessen"; } }
 
 ?>
