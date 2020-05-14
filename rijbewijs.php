@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
 
 	if ($cijfer_1 >= 16.5) {
     	echo "Je mag beginnen met rijlessen!"; 
-	} 
+	}   
 	else {
     	echo "Helaas, je mag nog niet beginnen met rijlessen"; 
 	} 
